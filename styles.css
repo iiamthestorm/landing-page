@@ -1,29 +1,210 @@
+/* CONTAINER */
 body {
   margin: 0;
-  background: #eee;
   font-family: 'Roboto', sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 
+/* SATU */
+.satu {
+  background: #1f2937;
+  display: flex;
+  flex-direction: column;
+}
 
+.header-links {
+  list-style-type: none;
+}
 
+.links-header,
+.links-header {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
 
+a:hover { 
+  text-decoration: none; 
+  color: red;
+}
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
 
+.header-logo,
+.header-links {
+  display: flex;
+  align-items: center;
+}
 
+.header-logo {
+  margin-left: 70px;
+  margin-bottom: 70px;
+  width: 80px;
+  height: 80px;
+  border-radius: 25px;
+}
 
+.header-links {
+  padding-right: 70px;
+  padding-bottom: 70px;
+}
 
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 70px;
+}
 
+.top {
+  display: flex;
+}
 
+.top-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
 
-.box {
-  width: 150px;
-  height: 150px;
-  border-radius: 10px;
-  border: 4px solid #3882f6;
+.text-main {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin-bottom: 13px;
+}
+
+button {
+  padding: 8px 35px;
+  border-radius: 8px;;
+  font-weight: bold;
+}
+
+button.Sign-up {
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+}
+
+.main-top {
+  padding-left: 90px;
+  padding-bottom: 90px;
+  padding-right: 50px;
+}
+
+.main-top-image{
+  padding-bottom: 90px;
+  padding-right: 90px;
 }
 
 .text-image {
   height: 330px;
   width: 600px;
+}
+
+/* DUA */
+.dua {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.header-main-center-top {
+  text-align: center;
+  margin: 30px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.main-center-top {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.album-link {
+  text-decoration: none;
+  color: #1f2937;
+  font-size: 18px;
+}
+
+.text {
+  text-align: center;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border: 4px solid #3882f6;
+}
+
+/* TIGA */
+.main-center-center {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  min-width: 100px;
+  padding: 50px 300px;
+}
+
+.center-quote{
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+
+.quote-reference {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+/* EMPAT */
+.empat {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  background: royalblue;
+  border: 1px solid royalblue;
+  padding: 25px;
+  margin: 60px 210px;
+  border-radius: 8px;
+}
+
+.bottom-text {
+  font-size: 18px;
+  color: #f9faf8;
+}
+
+button.Sign-up-bottom {
+  background: royalblue;
+  border: 1px solid white;
+  border-width: 2px;
+  color: #e5e7eb;
+}
+
+.text-bottom {
+  color: #e5e7eb;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: #1f2937;
+  padding: 20px;
+  color: #e5e7eb;
 }
